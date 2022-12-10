@@ -1,0 +1,72 @@
+.divBuscador input{
+    background-color: rgb(121, 105, 247);
+    border-radius: 13px;
+    margin: 10px;
+    width: 20rem;
+    height: 2rem;
+    border: solid rgb(255, 255, 255) 3px;
+    color: white;
+}
+
+.divBuscador button{
+    background-color: rgb(85, 85, 255);
+    border: solid rgb(255, 255, 255) 0.2em;
+    border-radius: 13px;
+    width: 5rem;
+    height: 2rem;
+    font-size: 15px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(110, 191, 245);
+}
+
+input:hover {
+    background-color: rgb(110, 191, 245);;
+}
+
+.nav {
+    background-color: rgba(0, 255, 255, 0.561);
+    justify-content: right;
+    display: flex;
+    margin-left: 3.5%;
+    margin-top: 25px;
+    width: 90%;
+    padding: 5px;
+    border: solid white;
+    border-radius: 1rem;
+}
+
+.home{
+    background-color:  rgb(85, 85, 255);
+    color: rgb(255, 255, 255);
+    margin-right: 25%;
+    margin-top: 10px;
+    text-decoration: none;
+    width: 5em;
+    height: 25px;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: solid rgb(255, 254, 254) 0.2em;
+}
+
+.home:hover{
+    background-color: rgba(0, 255, 255, 0.561);;
+}
+
+.about{
+    background-color:  rgb(85, 85, 255);
+    color: rgb(255, 255, 255);
+    margin-right: 12.5%;
+    margin-top: 10px;
+    text-decoration: none;
+    width: 5em;
+    height: 25px;
+    border-radius: 0.5rem;
+    border: solid rgb(255, 255, 255) 0.2em;
+}
+
+.about:hover{
+    background-color: rgba(0, 255, 255, 0.561);
+}

@@ -1,0 +1,36 @@
+.nombre{
+    font-size: 20px;
+    color: white;
+}
+.contenedor{
+    background-color: rgba(0, 255, 255, 0.561);
+    width: 30%;
+    height: 300px;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 15%;
+    margin-top: 10%;
+    border: solid rgb(255, 255, 255);
+}
+
+.imagen{
+    position: absolute;
+    left: 150%; 
+    bottom: 1px;
+    border: solid white 3px;
+}
+
+h5{
+    display: block;
+    font-size: 15px;
+}
+
+.boton{
+    background-color: rgb(85, 85, 255);
+    width: 8rem;
+    margin-left: 70px;
+    border-radius: 3px;
+    border: solid white;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}

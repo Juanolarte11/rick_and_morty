@@ -1,0 +1,75 @@
+.card {
+  background-color: rgba(157, 210, 245, 0.41);
+  border: solid #ffffff;
+  width: 18em;
+  height: 22em;
+  border-radius: 2em;
+  overflow: hidden;
+  margin: 2em;
+  margin-bottom: 0%;
+  position: relative;
+  box-shadow: 0 0 10px rgba(86, 82, 82, 0.8);
+}
+
+.card img {
+  width: 280px;
+  height: 290px;
+  border-radius: 1em;
+  display: block;
+  margin-left: 3px;
+}
+
+.card:hover img {
+  display: none;
+}
+
+.nombre {
+  color: rgb(5, 49, 77);;
+  font-size: 20px;
+  border: solid rgb(5, 49, 77);
+  background-color: #33daf7cb;
+  color: #02525d;
+  text-decoration: none;
+}
+
+.Link{
+  text-decoration: none;
+}
+
+.nombre:hover{
+  background-color: rgb(121, 105, 247);
+  color: black;
+}
+
+.species{
+  color: #8792da;
+  border: solid #8792da;
+  background-color: #0404f8cb;
+}
+
+.gender{
+  color: #3c5b62;
+  border: solid #3c5b62;;
+  background-color: #e3f1f3cb;
+}
+
+.card button {
+  border: #ee5151 solid;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  display: flex;
+  font-size: 15px;
+  background-color: #e40505;
+  color: aliceblue;
+}
+button:hover{
+  background-color: rgb(244, 76, 76);
+}
+
+.card:hover{
+  background-image: url('/src/assets/fondocartas.jpg');
+  background-size: cover;
+}
+
+
+

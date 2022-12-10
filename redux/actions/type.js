@@ -1,0 +1,2 @@
+export const ADD_PERSONAJE = "ADD_PERSONAJE";
+export const DELE_PERSONAJE = "DELE_PERSONAJE"

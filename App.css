@@ -1,0 +1,24 @@
+.App {
+   text-align: center;
+}
+
+.Prueba {
+   white-space: 5px;
+   bottom: 200px;
+}
+
+hr{
+   visibility: hidden;
+}
+
+/* form{
+   padding-bottom: 10rem;
+   padding-top: 10rem;
+   background-color: rgba(32, 132, 132, 0.814);
+} */
+/* .divCentral {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+} */
